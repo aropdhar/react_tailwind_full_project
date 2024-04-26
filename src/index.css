@@ -1,0 +1,119 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+ul li a.active{
+
+  color: #FFFFFF;
+}
+
+
+@layer components {
+  .common_background {
+    @apply bg-[#1C1E53];
+  }
+  
+  .pricing {
+    @apply w-[98px] text-[16px] font-medium cursor-pointer leading-[28px];
+  }
+
+  .btn{
+
+    @apply border-2 border-[#F4F6FC33] rounded-[41px] py-[14px] px-[48px] text-[#BBBBCB] text-[16px];
+
+  }
+  
+  .btn2{
+
+    @apply border-2 bg-[#FCD980] rounded-[41px] py-[14px] px-[48px] text-[#000] text-[16px];
+
+  }
+  
+  .btn4{
+
+    @apply border-2 bg-[#000] rounded-[41px] py-[14px] px-[48px] text-[#fff] text-[16px] border-none;
+
+  }
+  .nav_text{
+    @apply text-[16px] font-medium leading-[28px] text-[#BBBBCB];
+  }
+  
+  .nav_footer_text{
+    @apply text-[16px] font-medium leading-[28px] text-[#000];
+  }
+  
+  .paragraph{
+    @apply w-[399px] text-[16px] font-normal leading-[28px] text-[#F4F6FC];
+  }
+  
+  .para_size{
+    @apply mt-[22px] mr-[0] mb-[0] ml-[0];
+  }
+  
+  .email_footer{
+    @apply w-[108px] text-[18px] font-medium leading-[32px];
+  }
+
+  .footer_head{
+    @apply w-[66px] text-[18px] font-medium leading-[32px];
+  }
+
+  .talk_head{
+    @apply w-[333px] text-[48px] font-semibold leading-[64px] text-[#FFFFFF];
+  }
+  .icons_size{
+    @apply text-[16px] text-[#FFFFFF];
+  }
+
+  .common_text_color{
+    @apply text-[#FFFFFF];
+  }
+  
+  .home_heading{
+    @apply w-[314.75px] font-family font-normal text-[24px] leading-[36px] mt-[24px] mb-[12px]; 
+  }
+
+  .home_paragraph{
+    @apply w-[324.08px] font-family font-normal text-[16px] leading-[28px] text-[#282938];
+  }
+  .btn3{
+
+    @apply border-2 bg-[#FCD980] rounded-[41px] py-[14px] px-[150px] text-[#000] text-[16px] mt-[42px];
+
+  }
+
+  .input_handle{
+
+    @apply w-[432px] py-[16px] pl-[38px] bg-transparent border-2 border-[#FFFFFF0D] text-[#fff];
+
+  }
+  
+}
+
+
+@layer utilities {
+
+    .container {
+      width: 1281px;
+      margin: 0 auto;
+   }
+
+
+   .font-family{
+   
+        font-family: "Poppins", sans-serif;
+
+   }
+   
+   .border{
+
+    border: 2px solid rgba(0, 0, 0, 0.542);
+   }
+
+   .image_overlay{
+   
+       background: rgba(0, 0, 0, 0.419);
+   
+   }
+}
+
